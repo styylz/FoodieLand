@@ -31,6 +31,7 @@ export const applyTextType = (type: TextType, theme: Theme) => {
 				font-weight: ${theme.typography.h3.fontWeight};
 				font-size: ${theme.typography.h3.fonstSize};
 				line-height: ${theme.typography.h3.lineHeight};
+				letter-spacing: ${theme.typography.h3.letterSpacing};
 				@media ${mobile} {
 				font-size: ${theme.typography.h3.fontSizeMobile};
 				line-height: ${theme.typography.h3.lineHeightMobile};
@@ -83,6 +84,7 @@ export const applyTextType = (type: TextType, theme: Theme) => {
 				font-weight: ${theme.typography.caption14.fontWeight};
 				font-size: ${theme.typography.caption14.fonstSize};
 				line-height: ${theme.typography.caption14.lineHeight};
+				letter-spacing: ${theme.typography.caption14.letterSpacing};
 			`;
 	}
 };

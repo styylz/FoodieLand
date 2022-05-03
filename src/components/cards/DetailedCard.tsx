@@ -3,7 +3,7 @@ import { Typography } from 'components/typography/Typography';
 import { Box } from 'components/wrappers/Box';
 import React from 'react'
 import styled from 'styled-components/macro';
-import { FlexWrapper } from 'components';
+import { FlexWrapper, FavoriteButton } from 'components';
 import { Recipe } from 'constants/constants';
 
 
@@ -22,20 +22,8 @@ export const DetailedCard: React.FC<Recipe> = ({title, time, category, imageName
         borderRadius='30px'
         maxWidth='100%'
       />
-      <Box
-        position="absolute"
-        borderRadius="r30"
-        width="3rem"
-        height="3rem"
-        backgroundColor="white"
-        top="0.7rem"
-        right="2rem"
-        textAlign="center"
-        paddingY="s8"
 
-      >
-        <Image src="heart" alt="heart" />
-      </Box>
+        <FavoriteButton  />
       <FlexWrapper
         marginTop="s24"
         flexDirection="column"

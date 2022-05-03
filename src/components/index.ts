@@ -30,3 +30,5 @@ export * from './inputs/Input'
 
 //Buttons
 export * from './buttons/BlackButton'
+export * from './buttons/elements/BaseButton'
+export * from './buttons/FavoriteButton'

@@ -86,6 +86,7 @@ export const theme = {
 			lineHeight: '2rem',
 			lineHeightMobile: '2rem',
 			fontWeight: 600,
+			letterSpacing: "-0.04em"
 		},
 		h4: {
 			fonstSize: '3rem',
@@ -121,6 +122,7 @@ export const theme = {
 			fonstSize: '0.875rem',
 			lineHeight: '1.05rem',
 			fontWeight: 400,
+			letterSpacing: "-0.02em"
 		},
 
 	},

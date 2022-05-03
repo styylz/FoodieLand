@@ -4,6 +4,7 @@ import { SectionWrapper } from '../../../components/wrappers/SectionWrapper';
 import { RECIPES } from 'constants/constants';
 import { useQuery } from '../../../styles/breakpoints';
 import { BlackButton } from 'components/buttons/BlackButton';
+import { FavoriteButton } from 'components/buttons/FavoriteButton';
 
 const Recipes:React.FC = () => {
   const [isReadMore, setIsReadMore] = useState(true);
@@ -12,7 +13,6 @@ const Recipes:React.FC = () => {
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
   };
-
 
   return (
     <SectionWrapper>
