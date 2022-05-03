@@ -3,6 +3,7 @@ import { Box, Navbar } from 'components';
 import Banner from './sections/Banner';
 import Categories from './sections/Categories';
 import Recipes from './sections/Recipes';
+import Info from './sections/Info';
 
 
 const Home: React.FC = () => {
@@ -11,7 +12,8 @@ const Home: React.FC = () => {
 			<Navbar />
 			<Banner />
 			<Categories/>
-			<Recipes/>
+			<Recipes />
+			<Info />
 		</Box>
 	)
 };
