@@ -17,7 +17,6 @@ import chocolate from 'assets/images/chocolate.png'
 import wagyuBurger from 'assets/images/wagyuBurger.png'
 import timer from 'assets/images/timer.svg'
 import forkKnife from 'assets/images/forkKnife.svg'
-import heart from 'assets/images/heart.svg'
 import chickenrice from 'assets/images/chickenrice.png'
 import meatballs from 'assets/images/meatballs.png'
 import oatmealPancakes from 'assets/images/oatmealPancakes.png'
@@ -30,10 +29,14 @@ import chef from 'assets/images/chef.png'
 import flyingSalad from 'assets/images/flyingSalad.svg'
 import plate from 'assets/images/plate.svg'
 import rucola from 'assets/images/rucola.svg'
+import heartGray from 'assets/images/heartGray.svg'
+import heartRed from 'assets/images/heartRed.svg'
 
 
 export type Visuals = keyof typeof visuals;
 export const visuals: Record<string, string> = {
+	heartGray,
+    heartRed,
 	flyingSalad,
 	plate,
 	rucola,
@@ -46,7 +49,6 @@ export const visuals: Record<string, string> = {
 	pasta,
 	salad,
 	salmon,
-	heart,
 	forkKnife,
 	timer,
 	sushi,

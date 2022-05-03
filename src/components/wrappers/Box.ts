@@ -36,7 +36,7 @@ const boxProps = compose(
 	textAlign
 );
 
-interface Styles<T>
+export interface Styles<T>
 	extends BorderProps<T>,
 	ColorProps<T>,
 	PositionProps<T>,

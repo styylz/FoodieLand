@@ -9,3 +9,26 @@ export * from './wrappers/ContentWrapper';
 //texts
 // export * from './texts/h1';
 export * from './typography/Typography';
+
+//image
+export * from './Image'
+
+
+//navigation
+export * from './navigation/Navbar'
+export * from './navigation/Footer'
+
+//badges
+export * from './badges/Badge'
+
+//cards
+export * from './cards/SimpleCard'
+export * from './cards/DetailedCard'
+
+//inputs
+export * from './inputs/Input'
+
+//Buttons
+export * from './buttons/BlackButton'
+export * from './buttons/elements/BaseButton'
+export * from './buttons/FavoriteButton'
