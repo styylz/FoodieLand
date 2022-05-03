@@ -33,7 +33,6 @@ export const DetailedCard: React.FC<Recipe> = ({title, time, category, imageName
       >
         <Typography
           type='h3'
-          letterSpacing="-0.04em"
         >
        {title}
         </Typography>
@@ -46,7 +45,6 @@ export const DetailedCard: React.FC<Recipe> = ({title, time, category, imageName
                 <Typography
                    type='caption14'
                    color="secondary"
-                   letterSpacing="-0.02em"
                    marginRight="s24"
                 >
                  {time}
@@ -61,7 +59,6 @@ export const DetailedCard: React.FC<Recipe> = ({title, time, category, imageName
                 <Typography
                    type='caption14'
                    color="secondary"
-                   letterSpacing="-0.02em"
                 >
                  {category}
                 </Typography>
