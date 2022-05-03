@@ -10,5 +10,12 @@ export * from './wrappers/ContentWrapper';
 // export * from './texts/h1';
 export * from './typography/Typography';
 
+//image
+export * from './Image'
+
+
 //navbar
 export * from './navbar/Navbar'
+
+//badges
+export * from './badges/Badge'
