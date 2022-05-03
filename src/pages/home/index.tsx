@@ -5,6 +5,7 @@ import Categories from './sections/Categories';
 import Recipes from './sections/Recipes';
 import Info from './sections/Info';
 import Subscribe from './sections/Subscribe';
+import Footer from 'components/navigation/Footer';
 
 
 const Home: React.FC = () => {
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
 			<Recipes />
 			<Info />
 			<Subscribe/>
+			<Footer/>
 		</Box>
 	)
 };

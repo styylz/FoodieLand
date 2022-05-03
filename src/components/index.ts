@@ -14,8 +14,9 @@ export * from './typography/Typography';
 export * from './Image'
 
 
-//navbar
-export * from './navbar/Navbar'
+//navigation
+export * from './navigation/Navbar'
+export * from './navigation/Footer'
 
 //badges
 export * from './badges/Badge'
