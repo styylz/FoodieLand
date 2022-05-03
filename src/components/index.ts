@@ -9,3 +9,6 @@ export * from './wrappers/ContentWrapper';
 //texts
 // export * from './texts/h1';
 export * from './typography/Typography';
+
+//navbar
+export * from './navbar/Navbar'

@@ -1,10 +1,12 @@
 import React from 'react';
-import { Box } from 'components';
+import { Box, Navbar } from 'components';
+
 
 const Home: React.FC = () => {
 	return (
 		<Box>
-			Hi
+			<Navbar />
+
 		</Box>
 	)
 };
