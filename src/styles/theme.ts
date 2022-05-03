@@ -48,7 +48,7 @@ export const theme = {
 		s80: '5rem',
 		s96: '6rem',
 		s128: '8rem',
-		auto: 'auto'
+		auto: 'auto',
 	},
 	radii: {
 		r16: '1rem',
@@ -78,6 +78,7 @@ export const theme = {
 			lineHeight: '3.625rem',
 			lineHeightMobile: '3.65rem',
 			fontWeight: 600,
+			letterSpacing: "-0.04em"
 		},
 		h3: {
 			fonstSize: '1.5rem',
@@ -99,6 +100,7 @@ export const theme = {
 			lineHeight: '3.25rem',
 			lineHeightMobile: '2rem',
 			fontWeight: 600,
+			letterSpacing: "-0.04em"
 		},
 		h6: {
 			fonstSize: '2rem',
@@ -112,6 +114,8 @@ export const theme = {
 			lineHeight: '1.75rem',
 			lineHeightMobile: '1.6rem',
 			fontWeight: 400,
+			letterSpacing: "-0.04em"
+
 		},
 		caption14: {
 			fonstSize: '0.875rem',

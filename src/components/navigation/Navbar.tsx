@@ -4,8 +4,8 @@ import { Image } from 'components/Image';
 import { FlexWrapper } from '../wrappers/FlexWrapper';
 
 
-export const Navbar: React.FC = () => {
-  return (
+export const Navbar: React.FC = () =>
+   (
     <FlexWrapper
         padding="2.5rem 5rem"
         alignItems="center"
@@ -72,5 +72,5 @@ export const Navbar: React.FC = () => {
         </FlexWrapper>
     </FlexWrapper>
   )
-}
+
 

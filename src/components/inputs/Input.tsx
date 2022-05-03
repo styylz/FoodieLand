@@ -20,9 +20,9 @@ export const Input: React.FC<InputProps> = ({
   label,
   errorMessage,
   ...props
-}) => {
-  return (
-    <>
+}) =>
+   (
+    <Box>
       {errorMessage && (
         <label htmlFor="input">
           <Typography type="body16">{errorMessage}</Typography>
@@ -40,9 +40,9 @@ export const Input: React.FC<InputProps> = ({
         onChange={onChange}
         {...props}
       />
-    </>
+    </Box>
   );
-};
+
 
 const StyledBox = styled(Box)<Styles<Theme>>`
     width: 30rem;

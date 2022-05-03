@@ -8,11 +8,11 @@ export interface ButtonProps  {
 	children: ReactNode;
 }
 
-export const BlackButton: React.FC<ButtonProps> = ({children, onClick}) => {
-  return (
+export const BlackButton: React.FC<ButtonProps> = ({children, onClick}) =>
+   (
     <BlackStyledButton onClick={onClick}>{children}</BlackStyledButton>
   )
-}
+
 
 const BlackStyledButton = styled(BaseButton)`
   width: 12.5rem;

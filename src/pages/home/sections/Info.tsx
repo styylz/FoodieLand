@@ -3,8 +3,8 @@ import { BlackButton } from 'components/buttons/BlackButton'
 import { StaticImage } from 'gatsby-plugin-image'
 import React from 'react'
 
-const Info:React.FC = () => {
-  return (
+const Info:React.FC = () =>
+  (
     <SectionWrapper>
         <Container>
             <FlexWrapper>
@@ -18,8 +18,6 @@ const Info:React.FC = () => {
                   >
                     <Typography
                       type='h2'
-                      lineHeight="3.625rem"
-                      letterSpacing="-0.04em"
                      >
                          Everyone can be a chef in their own kitchen
                      </Typography>
@@ -29,7 +27,6 @@ const Info:React.FC = () => {
                   >
                     <Typography
                       type='body16'
-                      letterSpacing="-0.04em"
                      >
                          Lorem ipsum dolor sit amet, consectetuipisicing elit,
                          sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
@@ -48,6 +45,6 @@ const Info:React.FC = () => {
         </Container>
     </SectionWrapper>
   )
-}
+
 
 export default Info

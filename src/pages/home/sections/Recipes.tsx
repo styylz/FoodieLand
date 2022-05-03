@@ -27,7 +27,6 @@ const Recipes:React.FC = () => {
                 <Typography
                   type='h2'
                   textAlign="center"
-                  letterSpacing="-0.04em"
                 >
                    Simple and tasty recipes
                 </Typography>
@@ -47,10 +46,9 @@ const Recipes:React.FC = () => {
               </Box>
             </FlexWrapper>
             <GridWrapper
-              alignItems="center"
               gridTemplateColumns={{ _: 'auto', lmobile: 'auto ', ltablet:'auto auto  ', desktop: 'auto auto auto'}}
-              gridRowGap="40px"
-              gridColumnGap="40px"
+              gridGap="2.5rem"
+              marginBottom={{ lmobile: 's24', ltablet:'s24', desktop: 's0'}}
             >
               { isReadMore && (isMobile || isTablet) ? (RECIPES.map(({id, title, time, category, imageName}, i)=> (
                   i !== 5 ? (

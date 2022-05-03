@@ -8,9 +8,7 @@ import { Recipe } from 'constants/constants';
 
 
 export const DetailedCard: React.FC<Recipe> = ({title, time, category, imageName}) =>
-  {
-      console.log(title)
-      return(
+      (
     <DetailedStyledCard
       position="relative"
       paddingX="s16"
@@ -84,7 +82,7 @@ export const DetailedCard: React.FC<Recipe> = ({title, time, category, imageName
       </FlexWrapper>
     </DetailedStyledCard>
   )
-}
+
 
 const DetailedStyledCard = styled(Box)`
   width: 25rem;

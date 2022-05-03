@@ -3,8 +3,8 @@ import { BlackButton } from 'components/buttons/BlackButton';
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react'
 
-const Banner:React.FC = () => {
-  return (
+const Banner:React.FC = () =>
+ (
     <SectionWrapper>
         <Container>
           <FlexWrapper
@@ -58,7 +58,6 @@ const Banner:React.FC = () => {
                        backgroundColor="rgba(0, 0, 0, 0.05)"
                        padding="0.4rem 1rem"
                        width="10rem"
-                       marginBottom='0.5rem'
                        marginRight="2rem"
 
                       />
@@ -85,6 +84,7 @@ const Banner:React.FC = () => {
                       date="15 March 2022"
                       width="12rem"
                       marginBottom='2rem'
+                      marginRight="6rem"
                      />
                     <BlackButton>
                         <FlexWrapper
@@ -105,7 +105,6 @@ const Banner:React.FC = () => {
                     </FlexWrapper>
                 </FlexWrapper>
             </FlexWrapper>
-
             <StaticImage
               width={1200}
               style={{ borderRadius: '0 5rem 5rem 0'}}
@@ -114,10 +113,8 @@ const Banner:React.FC = () => {
               alt="chicken wings"
             />
           </FlexWrapper>
-
         </Container>
     </SectionWrapper>
   )
-}
 
 export default Banner

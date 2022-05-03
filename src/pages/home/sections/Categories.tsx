@@ -15,13 +15,11 @@ const Categories:React.FC = () =>{
     setIsReadMore(!isReadMore);
   };
 
-  console.log( (isMobile || isTablet) && isReadMore)
-
    return(
     <SectionWrapper>
         <Container >
           <Typography
-            type="h3"
+            type="h2"
           >
             Categories
           </Typography>

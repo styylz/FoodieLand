@@ -27,7 +27,6 @@ const Subscribe = () => {
             >
               <Typography
                  type='h2'
-                 letterSpacing="-0.04em"
                  textAlign="center"
                 >
                 Deliciousness to your inbox
@@ -36,14 +35,9 @@ const Subscribe = () => {
             <Box
               marginBottom="s48"
               zIndex={1}
-
             >
               <Typography
-                 type='h5'
-                 fontWeight="fw400"
-                 fontSize="fs16"
-                 lineHeight="1.75rem"
-                 letterSpacing="-0.04em"
+                 type='body16'
                  textAlign="center"
                 >
                 Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
