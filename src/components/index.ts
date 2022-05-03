@@ -23,3 +23,9 @@ export * from './badges/Badge'
 //cards
 export * from './cards/SimpleCard'
 export * from './cards/DetailedCard'
+
+//inputs
+export * from './inputs/Input'
+
+//Buttons
+export * from './buttons/BlackButton'

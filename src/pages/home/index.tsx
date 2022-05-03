@@ -4,6 +4,7 @@ import Banner from './sections/Banner';
 import Categories from './sections/Categories';
 import Recipes from './sections/Recipes';
 import Info from './sections/Info';
+import Subscribe from './sections/Subscribe';
 
 
 const Home: React.FC = () => {
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
 			<Categories/>
 			<Recipes />
 			<Info />
+			<Subscribe/>
 		</Box>
 	)
 };
