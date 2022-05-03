@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Navbar } from 'components';
 import Banner from './sections/Banner';
+import Categories from './sections/Categories';
 
 
 const Home: React.FC = () => {
@@ -8,6 +9,7 @@ const Home: React.FC = () => {
 		<Box>
 			<Navbar />
 			<Banner />
+			<Categories/>
 		</Box>
 	)
 };

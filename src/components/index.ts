@@ -19,3 +19,6 @@ export * from './navbar/Navbar'
 
 //badges
 export * from './badges/Badge'
+
+//cards
+export * from './cards/SimpleCard'
