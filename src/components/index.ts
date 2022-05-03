@@ -22,3 +22,4 @@ export * from './badges/Badge'
 
 //cards
 export * from './cards/SimpleCard'
+export * from './cards/DetailedCard'
